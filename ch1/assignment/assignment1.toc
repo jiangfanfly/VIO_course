@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}文献阅读题}{2}
+\contentsline {subsection}{\numberline {1.1}视觉与 IMU 进行融合之后有何优势？}{2}
+\contentsline {subsection}{\numberline {1.2}有哪些常见的视觉 +IMU 融合方案？有没有工业界应用的例子？}{2}
+\contentsline {subsection}{\numberline {1.3}在学术界，VIO研究有哪些新进展？有没有将学习方法用到VIO中的例子？}{4}
+\contentsline {section}{\numberline {2}编程验证题}{5}
+\contentsline {subsection}{\numberline {2.1}代码}{5}
+\contentsline {subsection}{\numberline {2.2}运行结果截图}{6}
+\contentsline {section}{\numberline {3}公式推导题}{7}
+\contentsline {subsection}{\numberline {3.1}第一小题}{7}
+\contentsline {subsection}{\numberline {3.2}第二小题}{7}

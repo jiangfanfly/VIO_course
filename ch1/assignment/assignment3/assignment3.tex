@@ -1,0 +1,39 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{amsmath}
+\title{第一章-习题3}
+\author{姜帆}
+\date{{\today}}
+\begin{document}
+\maketitle
+%\tableofcontents
+\section{第一题}
+\begin{equation}
+\begin{aligned}
+\frac{d(R^{-1}p)}{dR}
+&=\lim_{\phi \to 0}\frac{(Rexp(\phi^\wedge))^Tp-R^Tp}{\phi}\\
+&=\lim_{\phi \to 0}\frac{(exp(\phi^\wedge))^TR^Tp-R^Tp}{\phi}\\
+&=\lim_{\phi \to 0}\frac{(I+\phi^\wedge)^TR^Tp-R^Tp}{\phi}\\
+&=\lim_{\phi \to 0}\frac{(\phi^\wedge)^TR^Tp}{\phi}\\
+&=\lim_{\phi \to 0}\frac{(-\phi)^{\wedge}R^Tp}{\phi}\\
+&=\lim_{\phi \to 0}\frac{R^T(-\phi)^{\wedge}p}{\phi}\\
+&=\lim_{\phi \to 0}\frac{R^Tp^{\wedge}{(-\phi)}}{\phi}\\
+&=R^Tp^\wedge
+\end{aligned}
+\end{equation}
+
+\section{第二题}
+\begin{equation}
+\begin{aligned}
+\frac{dln({R_1}{R^{-1}_2})}{dR_2}
+&=\lim_{\phi \to 0}\frac{{ln({R_1{{R_2exp({\phi^\wedge)}^T}})}-{ln({R_1R^T_2})}}}{\phi}\\
+&=\lim_{\phi \to 0}\frac{ln(R_1(exp(\phi^\wedge))^TR^T_2)-{ln({R_1R^T_2})}}{\phi}\\
+&=\lim_{\phi \to 0}\frac{{ln(R_1R^T_2R_2(exp(\phi^\wedge))^TR^T_2)}-{ln({R_1R^T_2})}}{\phi}\\
+&=\lim_{\phi \to 0}\frac{ln(R_1R^T_2(R_2exp(\phi^\wedge)R^T_2)^T)-ln({R_1R^T_2})}{\phi}\\
+&=\lim_{\phi \to 0}\frac{ln(R_1R^T_2(exp((R_2\phi)^\wedge))^T)-ln(R_1R^T_2)}{\phi}\\
+&=\lim_{\phi \to 0}\frac{ln(R_1R^T_2exp((-R_2\phi)^\wedge))-ln(R_1R^T_2)}{\phi}\\
+&=\lim_{\phi \to 0}\frac{ln(R_1R^T)+J^{-1}_r(-R_2\phi)-ln(R_1R^T_2)}{\phi}\\
+&=\lim_{\phi \to 0}\frac{-J^{-1}_r(R_2\phi)}{\phi}\\
+&=-J^{-1}_r((ln(R_1R^{-1}_2))^\vee)R_2
+\end{aligned}
+\end{equation}
+\end{document}

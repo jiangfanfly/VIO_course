@@ -1,0 +1,12 @@
+1.
+bias 随机游走
+double gyro_bias_sigma = 0.00005;
+double acc_bias_sigma = 0.0005;
+高斯白噪声
+double gyro_noise_sigma = 0.015;    // rad/s
+double acc_noise_sigma = 0.019;
+
+imu1.bag
+
+
+2.

@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}代码实践}{2}
+\contentsline {subsection}{\numberline {1.1}完善求解器代码}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}Problem::MakeHessian}{2}
+\contentsline {subsubsection}{\numberline {1.1.2}Problem::SolveLinearSystem()}{2}
+\contentsline {subsection}{\numberline {1.2}完善滑动窗口代码}{5}
+\contentsline {section}{\numberline {2}论文阅读}{6}
+\contentsline {subsection}{\numberline {2.1}视觉惯导问题构建}{6}
+\contentsline {subsubsection}{\numberline {2.1.1}状态不可观}{6}
+\contentsline {subsubsection}{\numberline {2.1.2}增加约束}{6}
+\contentsline {subsection}{\numberline {2.2}三种处理方法}{6}
+\contentsline {subsubsection}{\numberline {2.2.1}gauge fixation}{6}
+\contentsline {subsubsection}{\numberline {2.2.2}gauge prior}{7}
+\contentsline {subsubsection}{\numberline {2.2.3}free gauge}{7}
+\contentsline {subsection}{\numberline {2.3}实验部分}{8}
+\contentsline {subsubsection}{\numberline {2.3.1}仿真数据}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}真实数据}{10}
+\contentsline {subsection}{\numberline {2.4}结论}{10}
